@@ -44,7 +44,7 @@ export default function LoadingScreen() {
           className="text-center"
         >
           <h1 className="text-3xl font-bold text-foreground">
-            <span className="text-primary">Box</span>Craft
+            <span className="text-primary">SHREE</span>SHIDDI VINAYAK
           </h1>
           <motion.p
             initial={{ opacity: 0 }}

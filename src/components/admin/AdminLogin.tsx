@@ -73,7 +73,7 @@ export default function AdminLogin() {
                 <Package className="w-8 h-8 text-primary-foreground" />
               </div>
               <h1 className="text-2xl font-bold">
-                <span className="text-primary">Box</span>Craft Admin
+                <span className="text-primary">SHREE</span>SHIDDI VINAYAK
               </h1>
               <p className="text-sm text-muted-foreground">
                 Sign in to manage your store

@@ -77,8 +77,8 @@ export default function Navbar() {
               <Package className="w-7 h-7 text-primary" />
             </motion.div>
             <span className="text-xl font-bold">
-              <span className="text-primary">Box</span>
-              <span className="text-foreground">Craft</span>
+              <span className="text-primary">SHREE</span>
+              <span className="text-foreground">SHIDDI VINAYAK</span>
             </span>
           </button>
 

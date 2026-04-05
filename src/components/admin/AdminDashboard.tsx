@@ -378,7 +378,7 @@ export default function AdminDashboard() {
         <div className="flex items-center gap-2 px-3 py-4 mb-4">
           <Package className="w-6 h-6 text-primary" />
           <span className="text-lg font-bold">
-            <span className="text-primary">Box</span>Craft
+            <span className="text-primary">SHREE</span>SHIDDI VINAYAK
           </span>
         </div>
 

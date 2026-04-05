@@ -82,7 +82,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-background/70 hover:underline"
                 >
-                  WhatsApp
+                  +91 9977022085
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-background/50">
-            © {new Date().getFullYear()} BoxCraft. All rights reserved.
+            © {new Date().getFullYear()} . All rights reserved.
           </p>
           <p className="text-xs text-background/50">
             Premium Cardboard Box Manufacturing
