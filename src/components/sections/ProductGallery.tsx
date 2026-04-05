@@ -44,8 +44,9 @@ function ProductCard({ product }: { product: Product }) {
 
   const handleOrder = () => {
     toast.success('Order Added!', {
-      description: `${quantity}x ${product.name} — $${pricing.totalPrice.toFixed(2)}`,
+      description: `${quantity}x ${product.name} — ₹${pricing.totalPrice.toFixed(2)}`,
     });
+
   };
 
   return (
@@ -116,10 +117,10 @@ function ProductCard({ product }: { product: Product }) {
           <div className="flex items-baseline justify-between">
             <div>
               <span className="text-xs text-muted-foreground line-through mr-1">
-                ${product.basePrice.toFixed(2)}
+₹${product.basePrice.toFixed(2)}
               </span>
               <span className="text-xl font-bold text-primary">
-                ${pricing.unitPrice.toFixed(2)}
+                ₹${pricing.unitPrice.toFixed(2)}
               </span>
               <span className="text-xs text-muted-foreground">/unit</span>
             </div>
@@ -153,10 +154,11 @@ function ProductCard({ product }: { product: Product }) {
             <div className="flex-1 text-right">
               <span className="text-xs text-muted-foreground">Total: </span>
               <span className="text-lg font-bold text-foreground">
-                ${pricing.totalPrice.toFixed(2)}
+                ₹${pricing.totalPrice.toFixed(2)}
               </span>
             </div>
           </div>
+
 
           {/* Order Button */}
           <Button

@@ -533,7 +533,7 @@ export default function AdminDashboard() {
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-medium truncate">{p.name}</p>
                               <p className="text-xs text-muted-foreground">
-                                ${p.basePrice.toFixed(2)} · {p.category}
+                                ₹{p.basePrice.toFixed(2)} · {p.category}
                               </p>
                             </div>
                             <Badge variant={p.inStock ? 'default' : 'destructive'} className="text-xs">
@@ -641,7 +641,7 @@ export default function AdminDashboard() {
                             <TableCell className="hidden md:table-cell text-sm text-muted-foreground">
                               {product.length}&quot;×{product.width}&quot;×{product.height}&quot;
                             </TableCell>
-                            <TableCell>${product.basePrice.toFixed(2)}</TableCell>
+<TableCell>₹{product.basePrice.toFixed(2)}</TableCell>
                             <TableCell>
                               <Badge variant={product.inStock ? 'default' : 'destructive'}>
                                 {product.inStock ? 'Yes' : 'No'}
@@ -988,7 +988,7 @@ export default function AdminDashboard() {
             </div>
 
             <div className="space-y-2">
-              <Label>Base Price ($)</Label>
+<Label>Base Price (₹)</Label>
               <Input
                 type="number"
                 step="0.01"
