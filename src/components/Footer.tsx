@@ -1,6 +1,6 @@
 'use client';
 
-import { Package, Mail, Phone, MapPin } from 'lucide-react';
+import { Package, Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { useNavigationStore } from '@/store/navigation';
 
@@ -75,6 +75,17 @@ export default function Footer() {
 </a>
               </div>
               <div className="flex items-center gap-2">
+                <MessageCircle className="w-4 h-4 text-primary shrink-0" />
+                <a 
+                  href="https://wa.me/919977022085" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm text-background/70 hover:underline"
+                >
+                  WhatsApp
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 <span className="text-sm text-background/70">sanjay.panchal3006@gmail.com</span>
               </div>
@@ -86,7 +97,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-background/50">
-            © {new Date().getFullYear()} SHREE SHIDDI VINAYAK. All rights reserved.
+            © {new Date().getFullYear()} BoxCraft. All rights reserved.
           </p>
           <p className="text-xs text-background/50">
             Premium Cardboard Box Manufacturing
