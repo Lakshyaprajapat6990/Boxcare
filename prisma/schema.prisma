@@ -1,6 +1,7 @@
-// Note: For MongoDB, Prisma supports it but recommend Mongoose since deps include it.
+// MongoDB Prisma schema (preview feature)
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongodb"]
 }
 
 datasource db {

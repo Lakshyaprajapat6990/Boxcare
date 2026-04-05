@@ -1,18 +1,19 @@
-# Vercel Deployment TODO
+# Vercel Fixes Complete
 
 ## Completed:
-- Edited package.json (start script → node, added engines)
-- Created .env.example
-- Created vercel.json
+- package.json standalone, engines
+- vercel
 
-## Pending Steps:
-1. Delete bun.lockb and run `npm install` to generate package-lock.json.
-2. [User] Set up remote DB (Vercel Postgres free tier recommended: https://vercel.com/docs/storage/vercel-postgres, or Turso/libSQL), update .env and push schema: `npx prisma db push`.
-3. [User] Connect repo to Vercel, add env vars: DATABASE_URL (from DB provider), JWT_SECRET (openssl rand -base64 32).
-4. Test local build: `npm run build` && check no errors.
-5. Deploy: `npx vercel --prod` or git push.
+# Deployment Progress
 
-**Next: Test build successful, ready for user DB setup & deployment**
+**Current Status:** Prisma sync complete. Staging/committing/pushing changes...
 
-
+**Steps:**
+- [x] 1. Prisma DB sync: `npm run db:push` ✅
+- [x] 2. Prisma client generate: `npm run db:generate` ✅ (v6.19.2)
+- [ ] 3. Stage: `git add .`
+- [ ] 4. Commit changes
+- [ ] 5. Push to origin/Lakshyarepo
+- [ ] 6. Local build test
+- [ ] 7. Verify Vercel deploy
 

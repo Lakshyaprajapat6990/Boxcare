@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <Package className="w-6 h-6 text-primary" />
               <span className="text-xl font-bold">
-                <span className="text-primary">Box</span>Craft
+                <span className="text-primary">SHREE</span>SHIDDI VINAYAK PACKING
               </span>
             </div>
             <p className="text-sm text-background/70 leading-relaxed">
@@ -63,18 +63,20 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary shrink-0" />
                 <span className="text-sm text-background/70">
-                  1234 Industrial Blvd, Suite 100
+                  Sector 3, Near vinayak Toll Tax 
                   <br />
-                  Packaging City, PC 56789
+                  Saver Road Indore,
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <span className="text-sm text-background/70">(555) 123-4567</span>
+                <a href="tel:+919977022085" className="text-sm text-background/70 hover:underline">
+  +91 9977022085
+</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <span className="text-sm text-background/70">info@boxcraft.com</span>
+                <span className="text-sm text-background/70">sanjay.panchal3006@gmail.com</span>
               </div>
             </div>
           </div>

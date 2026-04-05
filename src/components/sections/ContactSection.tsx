@@ -22,17 +22,17 @@ const contactInfo = [
   {
     icon: <MapPin className="w-5 h-5" />,
     title: 'Address',
-    details: ['1234 Industrial Blvd, Suite 100', 'Packaging City, PC 56789'],
+    details: ['Sector 3, Near vinayak Toll Tax', 'Saver Road Indore, MP 452001'],
   },
   {
     icon: <Phone className="w-5 h-5" />,
     title: 'Phone',
-    details: ['(555) 123-4567', '(555) 987-6543'],
+    details: ['+91 9977022085'],
   },
   {
     icon: <Mail className="w-5 h-5" />,
     title: 'Email',
-    details: ['info@boxcraft.com', 'orders@boxcraft.com'],
+    details: ['sanjay.panchal3006@gmail.com'],
   },
   {
     icon: <Clock className="w-5 h-5" />,
@@ -178,7 +178,7 @@ export default function ContactSection() {
                           <Label htmlFor="contact-phone">Phone</Label>
                           <Input
                             id="contact-phone"
-                            placeholder="(555) 000-0000"
+                            placeholder="+91"
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
                           />
