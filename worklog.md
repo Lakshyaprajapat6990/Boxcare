@@ -21,7 +21,7 @@ Stage Summary:
   - Gallery page with masonry layout and lightbox
   - Reviews section with user submission and star ratings
   - Contact form with validation and success animation
-  - Admin login (credentials: admin / SHREE SHIDDI VINAYAK@2024) with JWT authentication
+  - Admin login (credentials: admin / admin) with JWT authentication
   - Admin dashboard with sidebar navigation, product CRUD, inquiry management, review management
   - Loading screen animation, scroll animations, glassmorphism effects
   - Responsive design for mobile and desktop
