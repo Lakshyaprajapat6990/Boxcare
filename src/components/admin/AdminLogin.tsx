@@ -141,7 +141,7 @@ export default function AdminLogin() {
             {/* Hint */}
             <div className="mt-6 p-3 rounded-lg bg-accent/50 border border-border">
               <p className="text-xs text-muted-foreground text-center">
-                <strong>Demo credentials:</strong> admin / SHREE SHIDDI VINAYAK@2024
+                <strong>Demo credentials:</strong> admin / admin
               </p>
             </div>
           </CardContent>
