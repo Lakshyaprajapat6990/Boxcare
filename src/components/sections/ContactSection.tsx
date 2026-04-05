@@ -10,6 +10,7 @@ import {
   Send,
   Loader2,
   CheckCircle2,
+  MessageCircle,
 } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -25,7 +26,7 @@ const contactInfo = [
     details: ['Sector 3, Near vinayak Toll Tax', 'Saver Road Indore, MP 452001'],
   },
 {
-  icon: <Phone className="w-5 h-5" />,
+  icon:<a href="tel:+919977022085" className="hover:underline"> <Phone  className="w-5 h-5" /> </a>,
   title: 'Phone',
   details: [
     <a href="tel:+919977022085" className="hover:underline">
@@ -33,6 +34,15 @@ const contactInfo = [
     </a>
   ],
 },
+  {
+    icon: <a href="https://wa.me/919977022085" className="hover:underline"> <MessageCircle  className="w-5 h-5" /> </a>,
+    title: 'WhatsApp',
+    details: [
+      <a href="https://wa.me/919977022085" className="hover:underline">
+        +91 9977022085
+      </a>
+    ],
+  },
   {
     icon: <Mail className="w-5 h-5" />,
     title: 'Email',
