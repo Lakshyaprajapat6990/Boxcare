@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'boxcraft-super-secret-key-2024-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'SHREE SHIDDI VINAYAK-super-secret-key-2024-change-in-production';
 
 export interface JWTPayload {
   username: string;

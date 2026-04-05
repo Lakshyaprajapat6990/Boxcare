@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BoxCraft - Premium Cardboard Box Manufacturing",
+  title: "SHREE SHIDDI VINAYAK - Premium Cardboard Box Manufacturing",
   description:
     "Manufacturing excellence since 2010. Custom solutions for every packaging need. Premium quality cardboard boxes in all sizes with bulk discounts and fast delivery.",
   keywords: [
-    "BoxCraft",
+    "SHREE SHIDDI VINAYAK",
     "cardboard boxes",
     "packaging",
     "shipping boxes",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     icon: "/logo.svg",
   },
   openGraph: {
-    title: "BoxCraft - Premium Cardboard Box Manufacturing",
+    title: "SHREE SHIDDI VINAYAK - Premium Cardboard Box Manufacturing",
     description:
       "Manufacturing excellence since 2010. Custom solutions for every packaging need.",
     type: "website",

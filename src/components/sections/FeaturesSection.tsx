@@ -56,7 +56,7 @@ export default function FeaturesSection() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Why Choose BoxCraft?
+            Why Choose SHREE SHIDDI VINAYAK?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             We combine quality materials, expert craftsmanship, and exceptional

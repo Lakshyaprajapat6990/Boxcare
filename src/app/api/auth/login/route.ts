@@ -5,8 +5,8 @@ import { signToken } from '@/lib/auth';
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
 const ADMIN_PASSWORD_HASH = process.env.ADMIN_PASSWORD_HASH || '';
 
-// Default admin credentials: admin / BoxCraft@2024
-const DEFAULT_PASSWORD = 'BoxCraft@2024';
+// Default admin credentials: admin / SHREE SHIDDI VINAYAK@2024
+const DEFAULT_PASSWORD = 'SHREE SHIDDI VINAYAK@2024';
 
 async function getAdminHash(): Promise<string> {
   // Use env hash if it looks valid

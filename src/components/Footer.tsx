@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-background/50">
-            © {new Date().getFullYear()} BoxCraft. All rights reserved.
+            © {new Date().getFullYear()} SHREE SHIDDI VINAYAK. All rights reserved.
           </p>
           <p className="text-xs text-background/50">
             Premium Cardboard Box Manufacturing

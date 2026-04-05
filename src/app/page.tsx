@@ -88,8 +88,8 @@ export default function Home() {
   // Restore auth from localStorage
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const savedToken = localStorage.getItem('boxcraft_token');
-      const savedAdmin = localStorage.getItem('boxcraft_admin');
+      const savedToken = localStorage.getItem('SHREE SHIDDI VINAYAK_token');
+      const savedAdmin = localStorage.getItem('SHREE SHIDDI VINAYAK_admin');
       if (savedToken && savedAdmin) {
         const { login } = useAuthStore.getState();
         try {
